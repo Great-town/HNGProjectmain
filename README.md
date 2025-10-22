@@ -2,7 +2,7 @@
 HNG Profile card
 RUNNING INSTRUCTIONS FOR THIS HTML/CSS site
 
-Clone the Repository Run this in your terminal: git clone https://github.com/Great-town/HNGProjectmain2.git
+Clone the Repository Run this in your terminal: git clone https://github.com/Great-town/HNGProjectmain.git
 
 Open the Project Open the folder in your preferred code editor (like VS Code) or navigate to it in your file explorer.
 
