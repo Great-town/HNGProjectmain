@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contact-us.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About-me.html">About Me</a></li>
+            </ul>
+        </nav>
+        <h1>CONTACT US</h1>
+    </header>
+    <div class="container">
+        <form>
+            <div class="mini-container">
+                <div class="mini-grid">
+                    <label for="name">Full name</label>
+                    <input class="name-class" data-testid="test-contact-name" id="name" type="text" placeholder="e.g: James Billy" aria-labelledby="no-name">
+                    <div class="name-error" style="display: none;" data-testid="test-contact-error-name" id="no-name">Name is required.</div>
+                </div>
+            
+                <div class="mini-grid"> 
+                    <label for="mail">Email</label>
+                    <input class="mail-class" data-testid="test-contact-email" id="mail" type="text" placeholder="name@example.com" aria-labelledby="no-email">
+                    <div class="mail-error" style="display: none;" data-testid="test-contact-error-email" id="no-email">Valid email is required.</div>
+                </div>
+            </div>
+            
+
+            <div class="mini-container">
+                <div class="mini-grid">
+                    <label for="subject">Subject</label>
+                    <input class="subject-class" data-testid="test-contact-subject" id="subject" type="text" placeholder="e.g: Complaint" aria-describedby="no-subject">
+                    <div class="subject-error" style="display: none;" id="no-subject" data-testid="test-contact-error-subject">Subject is required</div>
+                </div>
+
+                <div class="mini-grid">
+                    <label for="message">Message</label>
+                    <input class="message-class" data-testid="test-contact-message" id="message" type="text" placeholder="What do you have to say?" aria-describedby="no-message">
+                    <div class="message-error" style="display: none;" data-testid="test-contact-error-message" id="no-message">Message of more than 10 characters is required.</div>
+                </div>
+            </div>
+            
+            
+            <button type="reset">Reset</button>
+            <button type="submit" data-testid="test-contact-submit" class="submit-button">Submit</button>
+            <div class="js-success-message success-message" data-testid="test-contact-success" style="display: none;">Form Submitted Successfully</div>
+        </form>
+    </div>
+   
+
+    <script src="contact-us2.js"></script>
+</body>
+</html>

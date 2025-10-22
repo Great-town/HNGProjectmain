@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-testid="test-profile-card">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Card</title>
+    <link rel="stylesheet" href="project2-styles.css">
+</head>
+<body>
+    <article>
+        <nav>
+            <ul>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="About-me.html">About Me</a></li>
+            </ul>
+        </nav>
+        <header data-testid="header">
+            <figure class="image-container">
+                <img data-testid="test-user-avatar" src="flower-image.jpg" alt="my-profile-picture" class="image">
+                <figcaption>Profile Picture</figcaption>
+            </figure>
+
+            <div class="header-mini">
+                <h2 data-testid="test-user-name" class="username" aria-label="Kaima-Diamond">
+                    Kaima Diamond
+                </h2>
+                <div class="time-container" data-testid="test-user-time"></div>
+            
+            </div>
+            
+        </header>
+
+        <div class="partitioner"></div>
+
+        <main data-testid="main-body">
+            <div class="word-space">
+                <p data-testid="test-user-bio" class="biography">
+                 I'm a decent frontend developer who loves crafting clean, 
+                 user-friendly interfaces. Beyond coding, I enjoy taking the time to 
+                 connect with others and have fun engaging in physically tasking activities like sports and others.
+                </p>
+            </div>
+            
+
+            <div class="partitioner"></div>
+
+            <div class="hobbies-dislikes">
+                <section class="hobbies-container" >
+                    <h3>Hobbies</h3>
+                    <ul data-testid="test-user-hobbies"> 
+                        <li>Basketball </li>
+                        <li>Strategy games</li>
+                        <li>Networking and socializing</li>
+                        <li>Reading</li>
+                    </ul>
+                
+                </section>
+                <section class="dislikes-container" >
+                    <h3>Dislikes</h3>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Ketchup</li>
+                        <li>Ill-mannered People</li>
+                        <li>Conflict</li>
+                        <li>Disturbance</li>
+                    </ul>
+                </section>
+            </div>
+    
+        </main>
+
+        <div class="partitioner"></div>
+
+        <footer >
+            <nav data-testid="test-user-social-links" class="links-container">
+                <li >Twitter: 
+                    <a data-testid="test-user-social-twitter" class="link" href="youtube.com" target="_blank" rel="noopener noreferrer" tabindex="0">
+                        @Kai_mond
+                    </a>
+                </li>
+                <li>Instagram: 
+                    <a data-testid="test-user-social-instagram" class="link" href="you.com" target="_blank" rel="noopener noreferrer" tabindex="0">
+                        Kai_mond
+                    </a>
+                </li>
+            </nav>
+        </footer>
+
+    </article>
+
+    <script src="project.js"></script>
+</body>
+</html>
+

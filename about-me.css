@@ -1,0 +1,38 @@
+* {
+    color: white;
+}
+body {
+    background-color: rgb(27, 8, 50);
+    padding: 10px;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 0.5fr 1.5fr;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+header h1 {
+    justify-self: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+ }
+
+ .section {
+    background-color: rgb(89, 89, 178);
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 16px;
+ }
